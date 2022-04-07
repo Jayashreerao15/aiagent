@@ -5,10 +5,10 @@ import pyperclip
 root =Tk()
 root.geometry("400x400")
 root.resizable(0,0)
-root.title("DataFlair - PASSWORD GENERATOR")
+root.title("Jay - PASSWORD GENERATOR")
 
 heading = Label(root, text = 'PASSWORD GENERATOR' , font ='arial 15 bold').pack()
-Label(root, text ='DataFlair', font ='arial 15 bold').pack(side = BOTTOM)
+Label(root, text ='Jay', font ='arial 15 bold').pack(side = BOTTOM)
 
 pass_label = Label(root, text = 'PASSWORD LENGTH', font = 'arial 10 bold').pack()
 pass_len = IntVar()
